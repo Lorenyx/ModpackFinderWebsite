@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lore's Minecraft Modpack Finder (LMMF)</title>
+	<link rel="stylesheet" type="text/css" href="static/main.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="static/minecraft-webfont.css" />
+</head>
+
+<body>
+  <h1>Lore's Modpack Finder.</h1>
+  <div class="hero">
+    <h2>Enter mod URL below</h2>
+    <p>The URL should should be similar to https://www.curseforge.com/minecraft/mc-mods/&lt;mod_name&gt;</p>
+    <form action='/dependents' method="get" id="myForm">
+    
+      <input type="submit" value="Submit">
+      <br/>
+      <input type="text" name="mod_url" />
+      <br/>
+      <input type="text"  name="mod_url" />
+      <br/>
+      <input type="button" id="addMod" value="Add Mod" />
+      <br/>
+      
+    </form>
+    
+  </div>
+  <div class="footer">
+    <p>Made by <a href="">Lorenyx</a></p> 
+    <!-- add link to github later -->
+  </div>
+  
+</body>
+</html>
+
+<script>
+	document.getElementById("addMod").onclick = function() {
+	var form = document.getElementById("myForm");
+	var input = document.createElement("input");
+	input.type = "text";
+  input.name = "mod_url";
+	var br = document.createElement("br");
+    form.appendChild(input);
+    form.appendChild(br);
+	}
+</script>

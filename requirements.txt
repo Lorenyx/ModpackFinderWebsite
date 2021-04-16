@@ -1,0 +1,4 @@
+sanic>=1.0
+sanic_session
+bs4
+jinja2

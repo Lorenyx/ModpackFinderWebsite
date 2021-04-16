@@ -1,0 +1,53 @@
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 32px;
+  font-family: "Minecraft", 'Palatino Linotype', serif;
+  text-align: left;
+  margin-left: 20px;
+  color: rgb(121, 149, 117);
+}
+
+h2 {
+	font-size: 56px;
+  
+  /* font-family: 'Minecraft', serif; */
+}
+
+.footer {
+  font-family: 'Minecraft', serif;
+  font-size: px;
+  text-align: left;
+  margin: 20px;
+}
+
+.hero {
+	padding: 50px 75px;
+	margin: 50px;
+  padding-bottom: 200px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  color: #ffffff;
+  background-image: url("https://i.imgur.com/uoVMzuj.png");
+  background-size: cover;
+}
+
+input[type=text] {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 70%;
+  padding: 6px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+.hero a {
+	color: #00FFAA;
+	font-size: 1.25em;
+	text-decoration: none;
+}

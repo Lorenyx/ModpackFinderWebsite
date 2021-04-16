@@ -1,0 +1,12 @@
+<h1>The modpacks with {{ mod_name }} are: </h1>
+<ul>
+  {% for name, link in mod_dict.items() %}
+  <li> 
+    {{ name }}
+    <a href={{ link }}>Download</a>
+  </li>
+  {% endfor %}
+</ul>
+<form action="http://python-flask--lorenyx.repl.co">
+  <button type="submit">Go Back</button>
+</form>

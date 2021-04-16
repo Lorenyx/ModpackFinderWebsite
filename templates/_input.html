@@ -1,0 +1,21 @@
+<form method="POST" id="myForm">
+    Enter mod URL's below <br/>
+    <input type="text" id="mod_url" name="mod_url" />
+    <input type="submit" value="Submit">
+    <br/>
+    <input type="text" id="mod_url" name="mod_url" />
+    <br/>
+    <input type="button" id="addMod" value="Add Mod" />
+    <br/>
+</form>
+<script>
+	document.getElementById("addMod").onclick = function() {
+	var form = document.getElementById("myForm");
+	var input = document.createElement("input");
+	input.type = "text";
+  input.name = "mod_url";
+	var br = document.createElement("br");
+    form.appendChild(input);
+    form.appendChild(br);
+	}
+</script>
